@@ -1,4 +1,4 @@
-package com.Yur0k.task1;
+package com.yur0k.task1;
 
 import org.junit.Test;
 

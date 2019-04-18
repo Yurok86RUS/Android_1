@@ -3,8 +3,8 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.Yur0k.task1"
-        minSdkVersion 21
+        applicationId "com.yur0k.task1"
+        minSdkVersion 27
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"

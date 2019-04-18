@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.Yur0k.task1">
+    package="com.yur0k.task1">
 
     <application
         android:allowBackup="true"
