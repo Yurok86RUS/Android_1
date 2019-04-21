@@ -3,6 +3,7 @@ package com.yur0k.weather;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,6 +12,8 @@ public class MainActivity extends AppCompatActivity {
         Logs("onCreate");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        ImageView imageView = new ImageView(this);
+        imageView.setImageResource(R.drawable.rain);
     }
 
     @Override
