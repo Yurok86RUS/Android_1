@@ -31,8 +31,10 @@
         <TableRow>
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
             <TextView
                 android:id="@+id/textViewNull"
+                android:layout_width="wrap_content"
                 android:text="">
             </TextView>
         </TableRow>
@@ -40,6 +42,10 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text=""></TextView>
 
             <TextView
                 android:id="@+id/TextView04"
@@ -68,10 +74,65 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent">
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""></TextView>
+
+            <ImageView
+                android:src="@drawable/sun">
+            </ImageView>
+
+            <ImageView
+                android:src="@drawable/snow">
+            </ImageView>
+
+            <ImageView
+                android:src="@drawable/rain">
+            </ImageView>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:gravity="end"
+                android:text="День"></TextView>
+            <TextView
+                android:text="+45"
+                android:gravity="center_horizontal">
+            </TextView>
+            <TextView
+                android:text="-58"
+                android:gravity="center_horizontal">
+            </TextView>
+            <TextView
+                android:text="0"
+                android:gravity="center_horizontal">
+            </TextView>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Ночь"
+                android:gravity="end">
+            </TextView>
+            <TextView
+                android:text="+5"
+                android:gravity="center_horizontal">
+            </TextView>
+            <TextView
+                android:text="-144"
+                android:gravity="center_horizontal">
+            </TextView>
+            <TextView
+                android:text="0"
+                android:gravity="center_horizontal">
+            </TextView>
+        </TableRow>
     </TableLayout>
 </android.support.constraint.ConstraintLayout>
