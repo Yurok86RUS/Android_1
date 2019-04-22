@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="*"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/tabRow0"
+            android:background="@color/colorBackground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal" >
+                <TextView
+                    android:id="@+id/textView0"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="26dp"
+                    android:textStyle="bold"
+                    android:text="@string/app_name"/>
+        </TableRow>
+
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewNull"
+                android:layout_width="wrap_content"
+                android:text="">
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text=""></TextView>
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:text="21.04.2019"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:typeface="serif" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:text="22.04.2019"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:typeface="serif" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:text="23.04.2019"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:typeface="serif" >
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""></TextView>
+
+            <ImageView
+                android:src="@drawable/sun">
+            </ImageView>
+
+            <ImageView
+                android:src="@drawable/snow">
+            </ImageView>
+
+            <ImageView
+                android:src="@drawable/rain">
+            </ImageView>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:gravity="end"
+                android:text="День"></TextView>
+            <TextView
+                android:text="+45"
+                android:gravity="center_horizontal">
+            </TextView>
+            <TextView
+                android:text="-58"
+                android:gravity="center_horizontal">
+            </TextView>
+            <TextView
+                android:text="0"
+                android:gravity="center_horizontal">
+            </TextView>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Ночь"
+                android:gravity="end">
+            </TextView>
+            <TextView
+                android:text="+5"
+                android:gravity="center_horizontal">
+            </TextView>
+            <TextView
+                android:text="-144"
+                android:gravity="center_horizontal">
+            </TextView>
+            <TextView
+                android:text="0"
+                android:gravity="center_horizontal">
+            </TextView>
+        </TableRow>
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>
