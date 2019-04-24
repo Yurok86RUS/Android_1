@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Task3</string>
+    <string name="city_name">Введите название города и нажмите "ОК"</string>
+    <string name="OK">OK</string>
+</resources>
