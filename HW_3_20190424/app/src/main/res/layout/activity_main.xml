@@ -1,28 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#76f1f4">
 
     <EditText
         android:id="@+id/city_Name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:cursorVisible="true"
         android:focusable="true"
-        android:gravity="center_horizontal"
-        android:text="@string/city_name"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="253dp" />
+        android:hint="@string/city_name"
+        android:layout_gravity="center"/>
 
     <Button
         android:id="@+id/button_OK"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/OK"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
-</android.support.constraint.ConstraintLayout>
+        android:layout_gravity="center"/>
+</LinearLayout>
