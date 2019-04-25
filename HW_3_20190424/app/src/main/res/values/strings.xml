@@ -7,4 +7,5 @@
     <string name="after">24.04.2019</string>
     <string name="day">Днем</string>
     <string name="night">Ночью</string>
+    <string name="back">Назад</string>
 </resources>
