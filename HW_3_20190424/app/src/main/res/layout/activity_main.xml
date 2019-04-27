@@ -1,26 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center_vertical"
-    android:orientation="vertical"
     tools:context=".MainActivity"
-    android:background="#76f1f4">
+    android:background="#76f1f4"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/weather" />
 
     <EditText
         android:id="@+id/city_Name"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:cursorVisible="true"
         android:focusable="true"
-        android:hint="@string/city_name"
-        android:layout_gravity="center"/>
+        android:hint="@string/city_name" />
 
     <Button
         android:id="@+id/button_OK"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/OK"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:text="@string/OK" />
+
 </LinearLayout>
