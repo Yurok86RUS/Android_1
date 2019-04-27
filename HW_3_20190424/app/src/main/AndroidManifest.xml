@@ -12,7 +12,8 @@
         android:theme="@style/TextStyle"
         tools:ignore="GoogleAppIndexingWarning"
         android:fullBackupContent="@xml/backup_descriptor">
-        <activity android:name=".Main2Activity" />
+        <activity android:name=".Main2Activity"
+            android:theme="@style/AppTheme"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
