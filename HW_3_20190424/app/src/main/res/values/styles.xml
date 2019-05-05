@@ -9,7 +9,7 @@
     </style>
 
     <style name="TextStyle" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="android:textSize">32dp</item>
+        <item name="android:textSize">14dp</item>
     </style>
 
 </resources>
