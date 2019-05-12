@@ -1,19 +1,133 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="30sp"
-        android:text="TextView" />
+    <TableRow android:layout_weight="1">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:srcCompat="@drawable/msc" />
-</LinearLayout>
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="30sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/msc" />
+    </TableRow>
+
+    <TableRow android:layout_weight="5">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:columnCount="4"
+            android:orientation="horizontal">
+
+            <TextView android:text="" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="@string/now" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="@string/tomorrow" />
+
+            <TextView android:text="@string/after" />
+
+            <TextView android:text="" />
+
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/rain" />
+
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/snow" />
+
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/sun" />
+
+            <TextView
+                android:layout_gravity="end"
+                android:text="@string/day" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="@string/temp_now_day" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="@string/temp_tomorrow_day" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="@string/temp_after_day" />
+
+            <TextView
+                android:layout_gravity="end"
+                android:text="@string/night" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="@string/temp_now_night" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="@string/temp_tomorrow_night" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="@string/temp_after_nightt" />
+
+            <TextView
+                android:layout_gravity="end"
+                android:text="@string/humidity" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="@string/hudmidity_now" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="@string/hudmidity_tomorrow" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="@string/hudmidity_after" />
+
+            <TextView
+                android:layout_gravity="end"
+                android:text="@string/pressure" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="@string/pressure_now" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="@string/pressure_tomorrow" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="@string/pressure_after" />
+
+        </GridLayout>
+
+    </TableRow>
+
+</TableLayout>

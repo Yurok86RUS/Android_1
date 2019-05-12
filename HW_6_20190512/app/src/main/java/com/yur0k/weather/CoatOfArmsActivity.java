@@ -2,6 +2,7 @@ package com.yur0k.weather;
 
 import android.app.Activity;
 import android.os.Bundle;
+
 import static android.content.res.Configuration.ORIENTATION_LANDSCAPE;
 
 // Это активити для портретной реализации
