@@ -9,4 +9,21 @@
     <string name="day">Day</string>
     <string name="night">Night</string>
     <string name="back">Back</string>
+    <string name="humidity">Humidity</string>
+    <string name="pressure">Pressure</string>
+
+    <string name="temp_now_day">+5</string>
+    <string name="temp_tomorrow_day">-18</string>
+    <string name="temp_after_day">+43</string>
+    <string name="temp_now_night">0</string>
+    <string name="temp_tomorrow_night">-56</string>
+    <string name="temp_after_nightt">+29</string>
+
+    <string name="hudmidity_now">66%</string>
+    <string name="hudmidity_tomorrow">78%</string>
+    <string name="hudmidity_after">146%</string>
+
+    <string name="pressure_now">755</string>
+    <string name="pressure_tomorrow">956</string>
+    <string name="pressure_after">357</string>
 </resources>
