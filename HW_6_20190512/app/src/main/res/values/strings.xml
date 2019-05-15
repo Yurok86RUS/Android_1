@@ -31,4 +31,5 @@
     <string name="pressure_now">755</string>
     <string name="pressure_tomorrow">956</string>
     <string name="pressure_after">357</string>
+    <string name="history">History</string>
 </resources>
