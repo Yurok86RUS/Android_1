@@ -9,7 +9,8 @@ import android.widget.TextView;
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
-    private String[] data = {"0","1","2","3","4"};
+    private String[] data = {"Город","Дата","День","Ночь","Москва","22.12.2018","4","-12","Москва","23.12.2018","8","-50","Москва","24.12.2018","45","-35",
+                                "Москва","25.12.2018","56","-95","Москва","26.12.2018","898","-851"};
 
     @NonNull
     @Override

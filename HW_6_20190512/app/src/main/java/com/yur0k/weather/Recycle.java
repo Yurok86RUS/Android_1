@@ -3,7 +3,7 @@ package com.yur0k.weather;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
 public class Recycle extends AppCompatActivity {
@@ -14,7 +14,7 @@ public class Recycle extends AppCompatActivity {
         setContentView(R.layout.recycle);
 
         RecyclerView recyclerView = findViewById(R.id.history);
-        recyclerView.setLayoutManager(new LinearLayoutManager(getBaseContext()));
+        recyclerView.setLayoutManager(new GridLayoutManager(getBaseContext(), 4));
 
         MyAdapter adapter = new MyAdapter();
         recyclerView.setAdapter(adapter);
